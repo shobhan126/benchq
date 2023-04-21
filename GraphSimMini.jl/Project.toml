@@ -1,0 +1,4 @@
+name = "GraphSimMini"
+uuid = "4be5db7b-fc3b-4127-81c7-7228cc18547c"
+authors = ["Shobhan Kulshreshtha <sk@gatech.edu>"]
+version = "0.1.0"

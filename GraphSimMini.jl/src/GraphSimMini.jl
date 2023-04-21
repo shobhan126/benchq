@@ -1,3 +1,5 @@
+
+module GraphSimMini
 ################################################################################
 # © Copyright 2022-2023 Zapata Computing Inc.
 ################################################################################
@@ -10,6 +12,7 @@ Anders, Hans J. Briegel. https://arxiv.org/abs/quant-ph/0504117"
 using Jabalizer
 using PythonCall
 
+const ICMGate = Tuple{String,Vector{String}}
 include("graph_sim_data.jl")
 
 
@@ -253,4 +256,4 @@ function run_graph_sim_mini(circuit)
 end
 
 
-const ICMGate = Tuple{String,Vector{String}}
+end
